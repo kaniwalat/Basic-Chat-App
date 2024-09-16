@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUp</title>
+        <!-- the form awesome library is used to add icons to our form -->
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet"
+            href="https://fontawesome.com/icons/phone?f=classic&s=solid">
+        <!-- include the stylesheet file -->
+        <link href="login.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="signup">
+            <h1>SignUp</h1>
+            <form action="/signup" method="post">
+                <label for="name">
+                    <i class="fas fa-user"></i>
+                </label>
+                <input type="text" name="name" placeholder="Name-Surname"
+                    id="name" required>
+                <label for="phno">
+                    <i class="fa-solid fa-phone"></i>
+                </label>
+                <input type="text" name="phno" placeholder="PhoneNumber"
+                    id="phno" required>
+                <label for="username">
+                    <!-- font awesome icon -->
+                    <i class="fas fa-user"></i>
+                </label>
+                <input type="text" name="username" placeholder="Username"
+                    id="username" required>
+                <label for="password">
+                    <i class="fas fa-lock"></i>
+                </label>
+                <input type="password" name="password" placeholder="Password"
+                    id="password" required>
+                <input type="submit" value="SignUp">
+            </form>
+        </div>
+    </body>
+</html>

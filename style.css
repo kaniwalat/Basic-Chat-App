@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    border: 2px solid lightgreen;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url("favicon.png");
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 3px solid lightgreen;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.message span {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: blue;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.message p {
+    margin: 5px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightcoral;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.input-box {
+    padding: 10px;
+    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    border-top: 1px solid #eaeaea;
+    border-radius: 10px;
+}
+
+.input-box input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#sendButton {
+    padding: 8px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 300ms all ease-in;
+}
+
+#sendButton:hover {
+    background-color: #0056b3;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
